@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "principal";
+    src: url("../fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "segundary";
+    src: url("../fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBold.ttf");
+}
+
+:root {
+    --colorprincipal: #0F172A;
+    --colorlink: #1a1446;
+    --colorcardes: #24135f;
+
+    --color: #8B5CF6;
+    --colordetalhes: #EC4899;
+    --accent: #38BD5CF6;
+
+    --textprincipal: #fff;
+    --textsegundary: #1E293B;
+}
+
+body {
+    background: linear-gradient(#0F172A,#1a1446);
+    color: var(--textprincipal);
+    background-attachment: fixed;
+    font-family: segundary;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textprincipal);
+}
+
+main {
+    max-width: 800px;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main section.content {
+    display: flex;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.562);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.aside1 {
+    background-color: #ffffff0c;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-top: 40px;
+    height: 300px;
+}
+
+.aside1 .perfil{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.h1f {
+    margin-bottom: 20px;
+    margin-left: 10px ;
+    margin-top: 10px;
+    background-image: linear-gradient(var(--color), var(--color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-family: principal;    
+}
+
+/* class do javascript*/
+
+.h1f1 {
+    margin-bottom: 10px;
+    margin-left: 10px ;
+    margin-top: 10px;
+    font-size: 30px;
+    background-image: linear-gradient(var(--color), var(--color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: principal;
+}
+
+/*Termina aqui a class do javascript*/
+
+.p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: principal;
+}
+
+/*termina aqui*/
+
+.aside1 .imgdiv{
+    width: 90px; 
+    height: 90px;
+    background-color: var(--colordetalhes);
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50%;  
+}
+/* Trabalhando no header*/
+
+#input1 {
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: var(--colordetalhes);
+    border-color: var(--colordetalhes);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#input1:hover {
+    background-color: #d33c87ee;
+    color: #fffbfb98;
+}
+
+.header1 {
+    height: 35px;
+    margin-bottom: 40px;
+    width: 500px;
+    align-content: center;
+}
+
+.header1 a{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.header1 a:hover {
+    color: #5a4fac;
+}
+
+.section2 {    
+    background-color: #ffffff0c;
+    padding: 10px 5px 20px 4px;
+    border-radius: 10px;
+}
+
+.top {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bottom {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div hr {
+    margin-left: 10px;
+}
+
+.brevapresent {
+    display: flex;
+    width: 450px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;   
+    font-size: 14px;
+    margin-bottom: 20px;   
+}
+/* Trabalhando com a area tecnologia */
+.tecnolod {
+    display: flex;
+    text-align: left;
+    margin: 10px;
+}
+
+.hr {
+    width: 460px;
+}
+
+/*pontuação*/
+
+.skill{
+    display: flex;
+    margin: 20px;
+}
+
+.barra {
+    width: 88%;
+    height: 10px;
+    background-color: var(--color);
+    border-radius: 10px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.progresso {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* trabalhando com o css da pontuação dinamica */
+
+.input-btn {
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.checar {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.checar p{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.input-btn .inputbtn{
+    text-align: center;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 4px 0px 0px 4px ;
+    border: none;
+    background-color: var(--colordetalhes);
+    cursor: pointer;
+    color: white;
+    margin-right: 0px;
+}
+
+
+.input-btn #txtn1{
+    text-align: center;
+    font-size: 20px;
+    width: 60px;
+    border-radius: 0px 4px 4px 0px ;
+    border: none;
+    outline: none;
+    color: #2b2144cb;
+    margin-right: 0px;
+}
+
+/*terminou aqui*/
+
+/*terminou o trbalho com as barras*/
+
+/* trabalhando na area projecto ou card */
+.cardall {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: hidden;
+    width: 440px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cardall:hover {
+    overflow: auto;
+    cursor: pointer;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.11);
+    width: 150px;
+    height: 140px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cadrhdr1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #808080e1;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.cadrhdr2 {   
+    margin-top: 10px;
+    border-color: #808080e1;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.card-text {
+    display: inline-flex;
+    height: 60px;
+    margin-left: 10px;
+    overflow: auto;
+}
+
+
+@media all and (min-width: 52px) and (max-width: 555px) {
+    
+
+main section.content {
+    box-shadow: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10px;
+
+}
+
+.aside1 {
+    background-color: #ffffff0c;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 0px;
+}
+
+.aside1 .perfil{
+    display: none;
+    flex-direction: column;
+}
+
+.section2 {    
+    background-color: #ffffff0c;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    margin-right: 400px;
+}
+
+
+}
+
+
+@media all and (min-width: 556px) and (max-width: 790px) {
+    
+main section.content {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.aside1 {
+    background-color: #ffffff0c;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 0px;
+}
+
+.aside1 .perfil{
+    display: none;
+    flex-direction: column;
+}
+
+.section2 {    
+    background-color: #ffffff0c;
+    padding: 10px 5px 20px 4px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+}
