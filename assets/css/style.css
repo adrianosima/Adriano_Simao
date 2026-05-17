@@ -275,15 +275,28 @@ div hr {
     gap: 20px;
     overflow: hidden;
     width: 440px;
+    cursor: pointer;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
 }
 
-.cardall:hover {
-    overflow: auto;
-    cursor: pointer;
+.card-text::-webkit-scrollbar {
+    display: flex;
+
 }
+
+.card-text::-webkit-scrollbar-thumb {
+    background-color: #5a4fac94;
+    border-radius: 50%;
+    height: 0px;
+
+}
+
+.card-text::-webkit-scrollbar-button {
+    display: none;
+}
+
 
 .card {
     background-color: rgba(255, 255, 255, 0.11);
@@ -291,6 +304,7 @@ div hr {
     height: 140px;
     border-radius: 10px;
     padding: 20px;
+    animation: anima 8s infinite linear;
 }
 
 .cadrhdr1 {
@@ -314,7 +328,15 @@ div hr {
     margin-left: 10px;
     overflow: auto;
 }
+/* animação  carrocel */
 
+@keyframes anima {
+    from {translate: -100%;}
+    to {translate: 0%;}
+}
+
+
+/*fim da animação*/
 
 @media all and (min-width: 52px) and (max-width: 555px) {
     
