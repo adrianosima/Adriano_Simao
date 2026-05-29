@@ -19,8 +19,6 @@
     --colorcardes: #24135f;
 
     --color: #8B5CF6;
-    --colordetalhes: #EC4899;
-    --accent: #38BD5CF6;
 
     --textprincipal: #fff;
     --textsegundary: #1E293B;
@@ -30,7 +28,7 @@ body {
     background: linear-gradient(#0F172A,#1a1446);
     color: var(--textprincipal);
     font-family: segundary;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 a {
@@ -46,7 +44,6 @@ main {
     text-align: center;
     border-radius: 10px;
 }
-
 
 /*Trabalhando com o header*/
 .header1 {
@@ -86,7 +83,6 @@ main {
     margin-right: 30px;
 }
 
-
 /* Trabalhando com a area tecnologia */
 .tecnolod {
     display: flex;
@@ -108,7 +104,9 @@ main {
 
 .skill{
     display: flex;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    animation: open 2s ;
 }
 
 .redesocial {
@@ -125,3 +123,59 @@ main {
 }
 
 /*Ternina aqui*/
+
+div.redes-social {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div > img {
+    display: flex;
+    margin-top: 25px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    animation:  translate(2px) 2s;
+}
+
+div > img:hover  {
+    border: 2px solid #5a4fac;
+    transform: translate(-2px, -2px);
+    box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.288);
+    transition: transform -3s, border 1s;
+}
+
+
+/* class para usar no javascript */
+
+.openClass {
+    animation: close 3s;
+}
+
+@keyframes close {
+    0% {
+        translate: 20px;
+    }
+
+    50% {
+        translate: 0%;
+    }
+
+}
+
+
+/*Termina aqui*/
+@keyframes open {
+    0% {
+        translate: 0%;
+    }
+    50% {
+        translate:  10%;
+    }
+    
+}
