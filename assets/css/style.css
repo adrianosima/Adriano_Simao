@@ -164,7 +164,7 @@ main section.content {
     margin-left: 30px;
     margin-right: 30px;
 }
-
+/*Area sobre mim*/
 h3 {
     text-align: left;
     margin-bottom: 10px;
@@ -186,6 +186,66 @@ div hr {
     font-size: 14px;
     margin-bottom: 20px;   
 }
+
+.p-tecnology1 {
+    text-align: justify;
+    margin-left: 40px;
+}
+
+.p-tecnology {
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.ability {
+    margin-top: 30px;
+}
+
+/*color das letras das tecnologias*/
+
+.p-tecnology .HT1 {
+    color: var(--colordetalhes);
+}
+
+.p-tecnology .HT2 {
+    color: var(--accent);
+}
+
+.p-tecnology .HT4 {
+    color: var(--color);
+}
+
+.p-tecnology .CS1 {
+    color: blue;
+}
+
+.p-tecnology .CS2 {
+    color: #9e9494ff;
+}
+
+.p-tecnology .CS4 {
+    color: var(--accent);
+}
+
+.p-tecnology .JV1 {
+    color: yellow;
+}
+
+.p-tecnology .PY1 {
+    color: blue;
+}
+
+.p-tecnology .PY2 {
+    color: yellow;
+}
+
+
+
+/*Terminou aqui*/
+
+/*Termina aqui*/
+
 /* Trabalhando com a area tecnologia */
 .tecnolod {
     display: flex;
@@ -331,8 +391,8 @@ div hr {
 /* animação  carrocel */
 
 @keyframes anima {
-    from {translate: -100%;}
-    to {translate: 0%;}
+    from {translate: -100%};
+    to {translate: 10%}
 }
 
 
