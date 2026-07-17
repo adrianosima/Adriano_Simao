@@ -1,0 +1,52 @@
+#sobre {
+    min-height: 10vh;
+}
+
+.brevapresent {
+    display: flex;
+    width: 450px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;   
+    font-size: 14px;
+    margin-bottom: 20px;   
+}
+
+/*color das letras das tecnologias*/
+
+.p-tecnology .HT1 {
+    color: var(--colordetalhes);
+}
+
+.p-tecnology .HT2 {
+    color: var(--accent);
+}
+
+.p-tecnology .HT4 {
+    color: var(--color);
+}
+
+.p-tecnology .CS1 {
+    color: blue;
+}
+
+.p-tecnology .CS2 {
+    color: #9e9494ff;
+}
+
+.p-tecnology .CS4 {
+    color: var(--accent);
+}
+
+.p-tecnology .JV1 {
+    color: yellow;
+}
+
+.p-tecnology .PY1 {
+    color: blue;
+}
+
+.p-tecnology .PY2 {
+    color: yellow;
+}

@@ -4,7 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>perfil</title>
+
         <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="stylesheet" href="assets/css/sobre.css">
+
+        <link rel="stylesheet" href="assets/css/skill.css">
+
+        <link rel="stylesheet" href="assets/css/pojectos.css">
+
+        <link rel="stylesheet" href="assets/css/contacto.css">
     </head>
     <body onload="carregar()">
         <main>
@@ -32,49 +41,56 @@
                         <input type="button" value=">" onclick="abrir()"
                             id="input1">
 
-                        <a href>sobre</a>
-                        <a href="html/projectos.html"
-                            target="_blank">projectos</a>
-                        <a href="html/skill.html" target="_blank">skills</a>
-                        <a href="html/contacto.html"
-                            target="_blank">contatcto</a>
+                        <a href="#sobre">sobre</a>
+                        <a href="#projetos">projectos</a>
+                        <a href="#ability">skills</a>
+                        <a href="#contato">contatcto</a>
                         <hr class="bottom">
 
                     </header>
 
-                    <div>
+                    <div class="ctnt">
+                        <section id="sobre">
 
-                        <h3>Sobre Mim</h3><hr class="hr">
+                            <h3>Sobre Mim</h3><hr class="hr">
 
-                        <p class="brevapresent">
-                            sou um programador apaixonado
-                            por tecnologia. aprendendo desenvolvimento web com
-                            HTML, CSS, JAVASCRIPT & PYTHON.<p
-                                class="p-tecnology1">Tendo Como tecnologia neste
-                                monento :</p>
-                        </p>
-                        <p class="p-tecnology "><p class="p-tecnology ">
-                                <span class="HT1">H</span>
-                                <span class="HT2">T</span>
-                                <span class="HT3">M</span>
-                                <span class="HT4">L</span>
-                                <span class="HT5">5</span>
+                            <p class="brevapresent">
+                                sou um programador apaixonado
+                                por tecnologia. aprendendo desenvolvimento web
+                                com
+                                HTML, CSS, JAVASCRIPT & PYTHON.<p
+                                    class="p-tecnology1">Tendo Como tecnologia
+                                    neste
+                                    monento :</p>
                             </p>
-                            <p class="p-tecnology "><p class="p-tecnology ">
-                                    <span class="CS1">C</span>
-                                    <span class="CS2">S</span>
-                                    <span class="CS3">S</span>
-                                    <span class="CS4">3</span>
-                            </p>
-                            <p class="p-tecnology">
+                            <p class="p-tecnology ">
                                 <p class="p-tecnology ">
-                                    <span class="JV1">JAVA</span>
-                                    <span class="JV2">SCRIPT</span>
+                                    <span class="HT1">H</span>
+                                    <span class="HT2">T</span>
+                                    <span class="HT3">M</span>
+                                    <span class="HT4">L</span>
+                                    <span class="HT5">5</span>
+                                    semantico
+                                    <p>Header</p>
+                                    <p>main</p>
+                                    <p>footer</p>
                                 </p>
-                            </p>
-                            <div class="ability">
+                                <p class="p-tecnology "><p class="p-tecnology ">
+                                        <span class="CS1">C</span>
+                                        <span class="CS2">S</span>
+                                        <span class="CS3">S</span>
+                                        <span class="CS4">3</span>
+                                    </p>
+                                    <p class="p-tecnology">
+                                        <p class="p-tecnology ">
+                                            <span class="JV1">JAVA</span>
+                                            <span class="JV2">SCRIPT</span>
+                                        </p>
+                                    </p>
+                                </section>
+                                <section id="ability">
 
-                                <h3>Habilidades</h3><hr class="hr">
+                                    <h3>Habilidades</h3><hr class="hr">
 
                                     <div>
 
@@ -147,9 +163,9 @@
                                         </div>
 
                                     </div>
+                                </section>
 
-                                </div>
-                                <div>
+                                <div id="projetos">
                                     <div class="cardall">
 
                                         <a
@@ -224,10 +240,79 @@
 
                                     </div>
                                 </div>
+                                <section class="section2" id="contato">
+                                    <header class="header1">
+                                        <hr class="top">
+                                        <p>CONTACTOS</p>
+                                        <hr class="bottom">
+
+                                    </header>
+                                    <div class="redes-social">
+                                        <img src="../assets/fotos/facebook.jpg"
+                                            alt="icon facebook"
+                                            onclick="closeMedia1()">
+                                        <div class="skill fbClosopen">
+                                            <h2 class="tecnolod">FACEBOOK: </h2>
+                                            <div class="redesocial">
+                                                <a href="#"
+                                                    target="_blank">Adriano
+                                                    Simão</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="hr">
+
+                                    <div class="redes-social">
+                                        <img
+                                            src="../assets/fotos/tela-youtube.jpg"
+                                            alt="icon youtube"
+                                            onclick="closeMedia2()">
+                                        <div class="skill ytcloseopen">
+                                            <h2 class="tecnolod">YOUTUBE:</h2>
+                                            <div class="redesocial">
+                                                <a href="#"
+                                                    target="_blank">TECHMAT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="hr">
+
+                                    <div class="redes-social">
+                                        <img src="../assets/fotos/githabver.png"
+                                            alt="icon GITHABIT"
+                                            onclick="closeMedia3()">
+                                        <div class="skill gtcloseopen">
+                                            <h2 class="tecnolod">GITHABIT:</h2>
+                                            <div class="redesocial">
+                                                <a href
+                                                    target="_blank">adrianosima</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr class="hr">
+
+                                    <div class="redes-social">
+                                        <img src="../assets/fotos/instagrm.jpg"
+                                            alt="icon instagram"
+                                            onclick="closeMedia4()">
+                                        <div class="skill ismcloseopen">
+                                            <h2 class="tecnolod">INSTAGRAM:</h2>
+                                            <div class="redesocial">
+                                                <a href="#"
+                                                    target="_blank">Adriano
+                                                    Simão</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="hr">
+                                </section>
                             </section>
                         </section>
                     </main>
 
                     <script src="assets/javascripts/scripts.js"></script>
+                    <script src="assets/javascripts/contacto.js"></script>
                 </body>
             </html>
