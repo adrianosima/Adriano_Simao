@@ -8,7 +8,7 @@
     width: 440px;
     cursor: pointer;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -58,6 +58,10 @@
     height: 60px;
     margin-left: 10px;
     overflow: auto;
+}
+
+#projetos {
+    margin-bottom: 80px;
 }
 /* animação  carrocel */
 @keyframes anima {

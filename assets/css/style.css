@@ -58,9 +58,7 @@ main section.content {
 .aside1 {
     background-color: #ffffff0c;
     border-radius: 10px;
-    margin-left: 2px;
-    margin-right: 10px;
-    margin-top: 40px;
+    margin:40px 10px 0px 2px;
     height: 300px;
 }
 
@@ -76,6 +74,7 @@ main section.content {
     margin-top: 10px;
     background-image: linear-gradient(var(--color), var(--color));
     -webkit-background-clip: text;
+    background-clip: transparent;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
     font-family: principal;    
@@ -90,6 +89,7 @@ main section.content {
     font-size: 30px;
     background-image: linear-gradient(var(--color), var(--color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: principal;
 }
